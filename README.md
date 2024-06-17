@@ -21,6 +21,8 @@
     Desfaz as alterações do arquivo, considerando as diferenças entre os estados unmodified e modified
 >> git restore --staged + nome do arquivo
     Desfaz as alterações do arquivo, considerando as diferenças entre os estados modified e staged
+>> git push
+>> git remote
 
 ## Nomenclaturas
 
@@ -32,4 +34,4 @@ Estado "Staged" : arquivos prontos para commit
 ## Conceitos
 
 >> "Commit de um projeto" 
-    Quando é feito o commit em um projeto o Git salvo o estado atual do projeto, isso significa que o Git salvará na memória todos os dados dos arquivos naquele momento, como se fosse um snapshot. Isso pode ser útil futuramente, caso seja necessário desfazer alguma alteração, ou para criar novas branchs.
+    Quando é feito o commit em um projeto o Git salvo o estado atual do projeto, isso significa que o Git salvará na memória todos os dados dos arquivos naquele momento, como se fosse um checkpoint do projeto. Isso pode ser útil futuramente, caso seja necessário desfazer alguma alteração ou seja retornar para este estado salvo, ou para criar novas branchs.
