@@ -24,10 +24,11 @@
 ### git remote
     visualiza a lista de repositórios remotos disponíveis
 ### git push + nome repositório + nome da branch
-    Faz o update dos dados do projeto salvos no último commit executado
+    Atualiza (update) os dados do projeto no repositório remoto, conforme o último commit executado
 ### git pull
-    Faz o update e o merge dos dados salvos no repositório local com os dados salvos no repositório remoto. (Cuidado! Após enviar o comando o git faz a mesclagem das informações sem perguntar se o usuário esta de acordo ou não com as diferenças entre as versões dos arquivos)
+    Atualiza (update) e mescla (merge) os dados salvos no repositório local com os dados salvos no repositório remoto. (Cuidado! Após enviar este comando, o git faz a mesclagem das informações sem perguntar se o usuário esta de acordo ou não com as diferenças entre as versões dos arquivos)
 ### git fetch
+    Faz o download das informações do repositório remoto sem aplicar ou mesclar as diferenças entre os repositórios, depois deste comando é possível executar o comando git diff + nome do repositório + / + nome da branch para visualizar as diferenças entre os repositórios antes de tomar a decisão de executar o comando git pull para a mesclagem (merge) das informações.
     
 
 ## Nomenclaturas
