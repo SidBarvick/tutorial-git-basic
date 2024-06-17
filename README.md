@@ -21,8 +21,10 @@
     Desfaz as alterações do arquivo, considerando as diferenças entre os estados unmodified e modified
 ### git restore --staged + nome do arquivo
     Desfaz as alterações do arquivo, considerando as diferenças entre os estados modified e staged
-### git push
+### git push + nome repositório + nome da branch
+    Faz o update dos dados do projeto salvos no último commit executado
 ### git remote
+    visualiza a lista de repositórios remotos disponíveis
 
 ## Nomenclaturas
 
