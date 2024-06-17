@@ -1,7 +1,7 @@
-## Tutorial básico de versionamento de arquivos com Git
-### Começando a usar o Git
+# Tutorial básico de versionamento de arquivos com Git
+## Começando a usar o Git
 
-### Comandos básicos
+## Comandos básicos
 
 >> git init (dentro da pasta raiz do repositório)
     Iniciar um novo repositório para versionamento pelo Git
@@ -22,14 +22,14 @@
 >> git restore --staged + nome do arquivo
     Desfaz as alterações do arquivo, considerando as diferenças entre os estados modified e staged
 
-### Nomenclaturas
+## Nomenclaturas
 
 Estado "Unstacked" : arquivos novos (arquivos que o git nunca versionou, ou seja, o comando "commit" ainda não foi executado nesses arquivos)
 Estado "Unmodified" : arquivos não modificados
 Estado "Modified" : arquivos modificados
 Estado "Staged" : arquivos prontos para commit
 
-### Conceitos
+## Conceitos
 
 >> "Commit de um projeto" 
     Quando é feito o commit em um projeto o Git salvo o estado atual do projeto, isso significa que o Git salvará na memória todos os dados dos arquivos naquele momento, como se fosse um snapshot. Isso pode ser útil futuramente, caso seja necessário desfazer alguma alteração, ou para criar novas branchs.
