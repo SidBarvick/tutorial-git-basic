@@ -3,26 +3,26 @@
 
 ## Comandos básicos
 
->> git init (dentro da pasta raiz do repositório)
+### git init (dentro da pasta raiz do repositório)
     Iniciar um novo repositório para versionamento pelo Git
->> git status
+### git status
     Mostra as informações do repositório e dos arquivos
->> git add + nome do arquivo
+### git add + nome do arquivo
     Modifica o status do arquivo para staged (adiciona um arquivo na área de stage) 
->> git diff
+### git diff
     Mostra as diferenças dos arquivos entre os estados unmodified e modified
->> git diff --staged
+### git diff --staged
     Mostra as diferenças dos arquivos entre os estados modified e staged
->> git commit + -m "Mensagem, geralmente o título do commit realizado ou uma breve indicação das alterações realizadas" : 
+### git commit + -m "Mensagem, geralmente o título do commit realizado ou uma breve indicação das alterações realizadas" : 
     Salva o estado atual de todos os arquivos do projeto 
->> git log
+### git log
     Mostra as informações de todos os registros de commit realizados
->> git restore + nome do arquivo
+### git restore + nome do arquivo
     Desfaz as alterações do arquivo, considerando as diferenças entre os estados unmodified e modified
->> git restore --staged + nome do arquivo
+### git restore --staged + nome do arquivo
     Desfaz as alterações do arquivo, considerando as diferenças entre os estados modified e staged
->> git push
->> git remote
+### git push
+### git remote
 
 ## Nomenclaturas
 
@@ -33,5 +33,5 @@ Estado "Staged" : arquivos prontos para commit
 
 ## Conceitos
 
->> "Commit de um projeto" 
+### "Commit de um projeto" 
     Quando é feito o commit em um projeto o Git salvo o estado atual do projeto, isso significa que o Git salvará na memória todos os dados dos arquivos naquele momento, como se fosse um checkpoint do projeto. Isso pode ser útil futuramente, caso seja necessário desfazer alguma alteração ou seja retornar para este estado salvo, ou para criar novas branchs.
