@@ -26,6 +26,7 @@
 ### git push + nome repositório + nome da branch
     Faz o update dos dados do projeto salvos no último commit executado
 ### git pull
+    Faz o update e o merge dos dados salvos no repositório local com os dados salvos no repositório remoto. (Cuidado! Após enviar o comando o git faz a mesclagem das informações sem perguntar se o usuário esta de acordo ou não com as diferenças entre as versões dos arquivos)
     
 
 ## Nomenclaturas
