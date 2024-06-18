@@ -3,7 +3,7 @@
 Sobre: Tutorial com informações básicas e resumidas sobre como utilizar o Git por meio da linha de comando para versionamento de códigos e arquivos, destinado para pessoas que estão começando a utilizar essa ferramenta.
 
 ## Nomenclaturas e Conceitos 
-### *Termos ordenados em uma lógica progressiva para facilitar o entendimento*
+#### *(Termos ordenados em uma lógica progressiva para facilitar o entendimento)*
 
 - **Unstacked** : estado que indica que o arquivo é novo no projeto, ou seja, um arquivo que o Git nunca versionou e não há informações de nenhum estado anterior.
 - **Unmodified** : estado que indica que o arquivo não foi modificado, em comparação ao último commit realizado.
