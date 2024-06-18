@@ -1,4 +1,4 @@
-# Tutorial básico de versionamento de arquivos com Git
+# Tutorial básico de versionamento de arquivos com Git por meio de linha de comando
 
 Sobre: Tutorial com informações básicas e resumidas sobre como utilizar o Git por meio da linha de comando para versionamento de códigos e arquivos, destinado para pessoas que estão começando a utilizar essa ferramenta.
 
