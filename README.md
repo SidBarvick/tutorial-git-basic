@@ -5,7 +5,7 @@
 ## Nomenclaturas e Conceitos 
 #### *(Termos ordenados em uma lógica progressiva para facilitar o entendimento)*
 
-- **Commit** <br/> Quando é feito o commit em um projeto o Git salva o estado atual do projeto, isso significa que o Git salvará na memória todos os dados dos arquivos naquele instante, como se fosse um checkpoint do projeto. Isso pode ser útil futuramente, caso seja necessário desfazer alguma alteração, bastando para tanto retornar para o estado salvo no commit (checkpoint) desejado. Os commits também são úteis para definir um ponto de referência para a criação de outras branchs, garantindo assim que as branchs tenham um ponto de referência em comum para um melhor entendimento e coerência do fluxo de desenvolvimento de um projeto. 
+- **Commit** <br/> Comando que ao ser executado salva o estado atual do projeto, isso significa que o Git salvará na memória todos os dados dos arquivos naquele instante, como se fosse um checkpoint do projeto. Isso pode ser útil futuramente, caso seja necessário desfazer alguma alteração, bastando para tanto retornar para o estado salvo no commit (checkpoint) desejado. Os commits também são úteis para definir um ponto de referência para a criação de outras branchs, garantindo assim que as branchs tenham um ponto de referência em comum para um melhor entendimento e coerência do fluxo de desenvolvimento de um projeto. 
 - **Unstacked** <br/> Estado que indica que o arquivo é novo no projeto, ou seja, um arquivo que o Git nunca versionou e não há informações de nenhum estado anterior.
 - **Unmodified** <br/> Estado que indica que o arquivo não foi modificado, em comparação ao último commit realizado.
 - **Modified** <br/> Estado que indica que o arquivo foi modificado, em comparação ao último commit realizado.
