@@ -16,7 +16,10 @@
 
 ## Comandos básicos
 
+- **git config --global user.name** <br/> Define o nome do usuário que utilizará o Git
+- **git config --global user.email** <br/> Define o e-mail do usuário que utilizará o Git
 - **git init** <br/> Iniciar um novo repositório para versionamento pelo Git. O comando deve ser executado dentro da pasta raiz do projeto.
+- **git clone + link repositorio remoto** <br/> Clona um repositório remoto
 - **git status** <br/> Mostra as informações do repositório e dos arquivos
 - **git add + nome do arquivo** <br/> Modifica o status do arquivo para staged (adiciona um arquivo na área de stage) 
 - **git rm + nome do arquivo** <br/> Remove o arquivo do diretório que se encontra, essa alteração será processada no próximo commit realizado 
