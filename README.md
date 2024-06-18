@@ -16,8 +16,8 @@
 
 ## Comandos básicos
 
-- **git config --global user.name** <br/> Define o nome do usuário que utilizará o Git
-- **git config --global user.email** <br/> Define o e-mail do usuário que utilizará o Git
+- **git config --global user.name + nome do usuário** <br/> Define o nome do usuário que utilizará o Git
+- **git config --global user.email + e-mail do usuário** <br/> Define o e-mail do usuário que utilizará o Git
 - **git init** <br/> Iniciar um novo repositório para versionamento pelo Git. O comando deve ser executado dentro da pasta raiz do projeto.
 - **git clone + link repositorio remoto** <br/> Clona um repositório remoto
 - **git status** <br/> Mostra as informações do repositório e dos arquivos
