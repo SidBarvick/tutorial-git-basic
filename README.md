@@ -6,12 +6,12 @@
 #### *(Termos ordenados em uma lógica progressiva para facilitar o entendimento)*
 
 - **Commit** <br/> Comando que ao ser executado salva o estado atual do projeto, isso significa que o Git salvará na memória todos os dados dos arquivos naquele instante, como se fosse um checkpoint do projeto. Isso pode ser útil futuramente, caso seja necessário desfazer alguma alteração, bastando para tanto retornar para o estado salvo no commit (checkpoint) desejado. Os commits também são úteis para definir um ponto de referência para a criação de outras branchs, garantindo assim que as branchs tenham um ponto de referência em comum para um melhor entendimento e coerência do fluxo de desenvolvimento de um projeto. 
+- **Branch** <br/> Fluxo de desenvolvimento, um projeto pode ter várias branchs que podem sofrer modificações independentes e assim gerar estados diferentes do código e dos arquivos do projeto, que posteriormente podem ser meclados ou não pelos desenvolvedores. Esse conceito é muito útil para o desenvolvimento em paralelo por pessoas diferentes.
+- **Head** <br/> Seletor que indica a branch que o usuário está manipulando atualmente, ou seja, apenas a branch com o seletor "Head" poderá sofrer alterações pelo usuário.
 - **Unstacked** <br/> Estado que indica que o arquivo é novo no projeto, ou seja, um arquivo que o Git nunca versionou e não há informações de nenhum estado anterior.
 - **Unmodified** <br/> Estado que indica que o arquivo não foi modificado, em comparação ao último commit realizado.
 - **Modified** <br/> Estado que indica que o arquivo foi modificado, em comparação ao último commit realizado.
 - **Staged** <br/> Estado que indica que o arquivo está pronto para realizar o commit. Arquivos que não estão no estado staged serão desconsiderados no próximo commit.
-- **Branch** <br/> Fluxo de desenvolvimento, um projeto pode ter várias branchs que podem sofrer modificações independentes e assim gerar estados diferentes do código e dos arquivos do projeto, que posteriormente podem ser meclados ou não pelos desenvolvedores. Esse conceito é muito útil para o desenvolvimento em paralelo por pessoas diferentes.
-- **Head** <br/> Seletor que indica a branch que o usuário está manipulando atualmente, ou seja, apenas a branch com o seletor "Head" poderá sofrer alterações pelo usuário.
 - **.gitgnore** <br/> Arquivo utilizado para indicar o nome dos arquivos que devem ser ignorados pelo Git, ou seja, arquivos que o Git não precisa fazer o versionamento das modificações realizadas.
 
 ## Comandos básicos
