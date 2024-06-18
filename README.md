@@ -25,8 +25,8 @@ Sobre: Tutorial com informações básicas e resumidas sobre como utilizar o Git
 - "git restore + nome do arquivo" : Desfaz as alterações do arquivo, considerando as diferenças entre os estados unmodified e modified
 - "git restore --staged + nome do arquivo" : Desfaz as alterações do arquivo, considerando as diferenças entre os estados modified e staged
 - "git remote" : Visualiza a lista de repositórios remotos disponíveis
-- "git push + nome repositório + nome da branch" : Atualiza (update) os dados do projeto no repositório remoto, conforme o último commit executado
-- "git pull" : Atualiza (update) e mescla (merge) os dados salvos no repositório local com os dados salvos no repositório remoto. (Cuidado! Após enviar este comando, o git faz a mesclagem das informações sem perguntar se o usuário esta de acordo ou não com as diferenças entre as versões dos arquivos)
+- "git push + nome repositório remoto + nome da branch" : Atualiza (update) os dados do projeto no repositório remoto, conforme o último commit executado
+- "git pull + nome repositório remoto + nome da branch" : Atualiza (update) e mescla (merge) os dados salvos no repositório local com os dados salvos no repositório remoto. (Cuidado! Após enviar este comando, o git faz a mesclagem das informações sem perguntar se o usuário esta de acordo ou não com as diferenças entre as versões dos arquivos)
 - "git fetch" : Faz o download das informações do repositório remoto sem aplicar ou mesclar as diferenças entre os repositórios, depois deste comando é possível executar o comando git diff + nome do repositório + / + nome da branch para visualizar as diferenças entre os repositórios antes de tomar a decisão de executar o comando git pull para a mesclagem (merge) das informações.
 - "git branch + nome da branch" : Cria um nova branch no projeto
 - "git log --oneline --decorate" : Mostra as informações resumidas dos registros dos commits, as branchs e a branch com a marcação "Head" que é a branch que esta sendo manipulada pelo usuário
