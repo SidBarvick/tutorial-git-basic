@@ -19,6 +19,7 @@
 - **git init** <br/> Iniciar um novo repositório para versionamento pelo Git. O comando deve ser executado dentro da pasta raiz do projeto.
 - **git status** <br/> Mostra as informações do repositório e dos arquivos
 - **git add + nome do arquivo** <br/> Modifica o status do arquivo para staged (adiciona um arquivo na área de stage) 
+- **git rm + nome do arquivo** <br/> Remove o arquivo do diretório que se encontra, essa alteração será processada no próximo commit realizado 
 - **git diff** <br/> Mostra as diferenças dos arquivos entre os estados unmodified e modified
 - **git diff --staged** <br/> Mostra as diferenças dos arquivos entre os estados modified e staged
 - **git commit -m "comentário do commit"** <br/> Salva o estado atual de todos os arquivos do projeto 
