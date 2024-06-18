@@ -33,4 +33,10 @@
 - **git log --oneline --decorate** <br/> Mostra as informações resumidas dos registros dos commits, as branchs e a branch com a marcação "Head" que é a branch que esta sendo manipulada pelo usuário
 - **git checkout + nome da branch** <br/> Altera o seletor "Head" para a branch que o usuário deseja manipular
 - **git merge + nome da branch -m "comentário do merge"** <br/> Mescla as alterações da branch que o usuário está com a branch que o usuário indicou no comando. Contudo se houveram diferenças entre arquivos com o mesmo nome, o Git não vai executar o comando e pedirá que seja resolvido os conflitos antes de realizar o comando merge novamente. 
+
+## Referências
+- Git (https://git-scm.com/docs)
+
+### Autor
+*Sidney Barvick Fº*
     
